@@ -1,0 +1,41 @@
+.caption {
+    position: relative;
+    display: block;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 14px;
+    font-style: italic;
+    top: 80%;
+    width: 45%;
+    color: green;
+  
+}
+h1{
+    font-family: 'Slabo 27px', serif;
+}
+#title{
+    color:teal;
+}
+.jumbotron{
+    background-color: azure;
+    margin-bottom: 0px;
+}
+
+h2{
+    text-align:center;
+}
+p{
+    text-align: justify;
+}
+#navbar{
+    overflow: hidden;
+    background-color: teal;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
