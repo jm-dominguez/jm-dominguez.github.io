@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar">
 
         <!--Jumbotron -->
         <div class=jumbotron>
@@ -25,14 +25,22 @@
             </div>
         </div>
         <!--NavBar -->
-        <div id="navbar" class="sticky-top">
+        <nav id="navbar" class="sticky-top">
             <div class = "navbar-header">
                 <a href="#" class="navbar-brand">Juan Manuel Domínguez</a>
             </div>
-            <a href="#aboutme">About Me</a>
-            <a href="#skills">My Skills</a>
-            <a href="#hobbies">My Hobbies</a>
-        </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">My Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#hobbies">My Hobbies</a>
+                </li>
+            </ul>
+        </nav>
         <!--About Me -->
         <div id="aboutme">
             <div class="row">
@@ -63,33 +71,57 @@
             <div class = "row">
                 <div class = "container-fluid">
                     <div class = "row">
-                        <div class = "col-sm-6">
+                        <div class = "col-sm-4">
                             <div class="pythonlogo">
+
+                            </div>
+                            <div class="row">
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                </div>
+                                <div class="col-sm-4">
+                                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#pythonModal">Details</button>
+                                </div>
                             </div>
                         </div>
-                        <div class = "col-sm-6">
+                        <div class="col-sm-4">
+                            <div class="htmllogo">
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                </div>
+                                <div class="col-sm-4">
+                                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#htmlModal" align="center">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-sm-4">
                             <div class="javalogo">
                             </div>
-                        </div>
-                    </div>
-                    <div class = "row">
-                        <div class="col-sm-6">
-                            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#pythonModal">Details</button>
-                        </div>
-                        <div class="col-sm-6">
-                            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#javaModal">Details</button>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                </div>
+                                <div class="col-sm-4">
+                                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#javaModal">Details</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+        <div id="hobbies">
+                <h2>Hobbies</h2>
+            
+        </div>
+
         <!-- Python detail modal -->
         <!--The Modal -->
         <div class ="modal fade" id="pythonModal">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    
+
                     <!--Encabezado-->
                     <div class="modal-header">
                         <h3 class="modal-title">Python</h3>
@@ -111,7 +143,7 @@
         <div class ="modal fade" id="javaModal">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    
+
                     <!--Encabezado-->
                     <div class="modal-header">
                         <h3 class="modal-title">Java</h3>
@@ -119,7 +151,19 @@
                     </div>
                     <!--Cuerpo/Body -->
                     <div class="modal-body">
-                        Cuerpo java
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-ok"></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Abilites: <br>
+                                    Punctuation: <br>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <!--Footer-->
                     <div class="modal-footer">

@@ -1,3 +1,6 @@
+body{
+    position: relative;
+}
 .caption {
     position: relative;
     display: block;
@@ -46,19 +49,29 @@ p{
 .pythonlogo{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1000px-Python.svg.png);
     background-size:100% 100%;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     margin-left: auto;
     margin-right: auto;
 }
 .javalogo{
     background-image:url(http://www.myce.com/wp-content/images_posts/2017/01/myce-java-logo.png);
     background-size:100% 100%;
-    width:300px;
-    height:220px;
+    width:220px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.htmllogo{
+    background-image:url(https://wtfandrew.com/wp-content/uploads/2015/09/HTML5_and_CSS3_Logo_Vectors.png);
+    background-size:100% 100%;
+    width:220px;
+    height:200px;
     margin-left: auto;
     margin-right: auto;
 }
 .btn{
     background-color: teal;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
