@@ -22,6 +22,7 @@ h1{
 
 h2{
     text-align:center;
+    color:teal;
 }
 p{
     text-align: justify;
@@ -38,4 +39,26 @@ p{
     text-align: center;
     padding: 25px;
     text-decoration: none;
+}
+#skills{
+    background-color: azure;
+}
+.pythonlogo{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1000px-Python.svg.png);
+    background-size:100% 100%;
+    width:300px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.javalogo{
+    background-image:url(http://www.myce.com/wp-content/images_posts/2017/01/myce-java-logo.png);
+    background-size:100% 100%;
+    width:300px;
+    height:220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    background-color: teal;
 }

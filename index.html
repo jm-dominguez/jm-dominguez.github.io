@@ -25,7 +25,7 @@
             </div>
         </div>
         <!--NavBar -->
-        <div id="navbar" data-spy="affix" data-offset-top="205">
+        <div id="navbar" class="sticky-top">
             <div class = "navbar-header">
                 <a href="#" class="navbar-brand">Juan Manuel Domínguez</a>
             </div>
@@ -37,7 +37,7 @@
         <div id="aboutme">
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="me">About Me</h2>
+                    <h2>About Me</h2>
                 </div>
             </div>
             <div class="row">
@@ -50,6 +50,84 @@
                     <p>In my personal interests you will find sports, history and science fiction. Currently, I practice soccer and shotokan karate, in the future I would like to try boxing and rugby aswell. My favourite historical character is Muhammad Ali. Finally, my favourite science fiction saga is Star Wars.</p>
                 </div>  
             </div>
+        </div>
+        <!-- SKills -->
+        <div id="skills">
+            <div class="row">
+                <div class = "col-sm-12">
+                    <h2>My Skills</h2>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "container-fluid">
+                    <div class = "row">
+                        <div class = "col-sm-6">
+                            <div class="pythonlogo">
+                            </div>
+                        </div>
+                        <div class = "col-sm-6">
+                            <div class="javalogo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#pythonModal">Details</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#javaModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Python detail modal -->
+        <!--The Modal -->
+        <div class ="modal fade" id="pythonModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <!--Encabezado-->
+                    <div class="modal-header">
+                        <h3 class="modal-title">Python</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!--Cuerpo/Body -->
+                    <div class="modal-body">
+                        Cuerpo python
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Java detail modal -->
+        <!--The Modal -->
+        <div class ="modal fade" id="javaModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <!--Encabezado-->
+                    <div class="modal-header">
+                        <h3 class="modal-title">Java</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!--Cuerpo/Body -->
+                    <div class="modal-body">
+                        Cuerpo java
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
