@@ -26,22 +26,18 @@ h1{
 h2{
     text-align:center;
     color:teal;
+    margin-top: 35px;
 }
 p{
     text-align: justify;
 }
-#navbar{
-    overflow: hidden;
+.navbar{;
     background-color: teal;
 }
 
-#navbar a{
-    float: left;
-    display: block;
+.navbar a{;
     color: azure;
     text-align: center;
-    padding: 25px;
-    text-decoration: none;
 }
 #skills{
     background-color: azure;
