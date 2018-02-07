@@ -71,3 +71,21 @@ p{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer{
+    background-color: teal;
+}
+.menu-logo, .copyright{
+    color:white;
+}
+.github, .facebook, .twitter{
+    margin:auto 0;
+    padding: 0 0 0 0 ;
+    padding-bottom: 20px;
+    margin-top: 11px;
+    color: white;
+    justify-content: center;
+}
