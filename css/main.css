@@ -83,9 +83,15 @@ p{
 }
 .github, .facebook, .twitter{
     margin:auto 0;
-    padding: 0 0 0 0 ;
-    padding-bottom: 20px;
+    padding: 0 0 0 0 ;;
     margin-top: 11px;
     color: white;
     justify-content: center;
+}
+.list-inline{
+    margin: auto 0;
+}
+.carousel-image{
+    width:50em;
+    height: 20em;
 }
