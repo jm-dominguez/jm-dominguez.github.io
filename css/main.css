@@ -95,3 +95,41 @@ p{
     width:50em;
     height: 20em;
 }
+.starting-image{
+    margin-top: 25px;
+    margin-bottom: 15px;    
+}
+.rounded-circle{
+    border: solid teal 2px;
+}
+#hobbies > .container{
+    margin-bottom: 25px; 
+}
+.modal-title{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: teal;
+}
+.dot {
+  height: 8em;
+  width: 8em;
+  background-color: lawngreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+.punctuation{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 0.5em; 
+}
+.modal-descripcion{
+    font-family: 'Ubuntu', sans-serif;
+}
+#limg{
+    margin-top: 10px;
+}
+#myModal{
+    overflow: scroll;
+}

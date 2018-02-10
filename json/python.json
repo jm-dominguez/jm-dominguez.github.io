@@ -1,0 +1,19 @@
+[{
+  "titulo": "Python",
+  "puntuacion": 7.3,
+  "descripcion": "I am really good at using python but i can improve",
+  "imagen": "https://www.visualstudio.com/wp-content/uploads/2016/06/python-1-562x309@2x-op.png"
+},
+{
+  "titulo": "Java",
+  "puntuacion": 9.5,
+  "descripcion": "Im a master using java, i really have ridiculous experience working in this programming language",
+  "imagen": "http://www.freepngimg.com/thumb/java/5-2-java-png-clipart-thumb.png"
+},
+{
+  "titulo": "HTML & CSS",
+  "puntuacion": 8.2,
+  "descripcion": "Im good at html and ccs due to WebDev course",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png"
+}
+]
