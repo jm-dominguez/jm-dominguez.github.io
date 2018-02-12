@@ -52,6 +52,39 @@ $('#javaButton').click(function(){
   });
 });
 
+$('#javascriptButton').click(function(){
+  $.getJSON('./json/python.json',function(d){
+    console.log(d);
+    var titulo = d[3].titulo;
+    var puntuacion = d[3].puntuacion;
+    var descripcion = d[3].descripcion;
+    var imagen = d[3].imagen;
+    console.log(puntuacion);
+    $('.modal-title').text(titulo);
+    $('.modal-puntuacion').text(puntuacion);
+    $('.modal-descripcion').text(descripcion);
+    validarColor(puntuacion);
+    anadirImagen(imagen);
+
+  });
+});
+
+$('#sqlButton').click(function(){
+  $.getJSON('./json/python.json',function(d){
+    console.log(d);
+    var titulo = d[4].titulo;
+    var puntuacion = d[4].puntuacion;
+    var descripcion = d[4].descripcion;
+    var imagen = d[4].imagen;
+    console.log(puntuacion);
+    $('.modal-title').text(titulo);
+    $('.modal-puntuacion').text(puntuacion);
+    $('.modal-descripcion').text(descripcion);
+    validarColor(puntuacion);
+    anadirImagen(imagen);
+
+  });
+});
 function validarColor(puntuacion){
   if(puntuacion < 6){
     $('.dot').css('background-color', 'red');

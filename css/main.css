@@ -147,3 +147,19 @@ p{
     margin-top: 20px;
     margin-bottom: 40px;
 }
+.javascriptlogo{
+    background-image:url(https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png);
+    background-size:100% 100%;
+    width:220px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sqllogo{
+    background-image:url(http://www.mikefal.net/wp-content/uploads/2016/05/logoAzureSql.png);
+    background-size:100% 100%;
+    width:220px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}

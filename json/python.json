@@ -15,5 +15,18 @@
   "puntuacion": 8.2,
   "descripcion": "Im good at html and ccs due to WebDev course",
   "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png"
+},
+{
+  "titulo": "Javascript",
+  "puntuacion": 7.7,
+  "descripcion": "Currently, I have a basic knowledge about javascript and Jquery. However, i'm working to improve my abilities with this programming language. ",
+  "imagen": "https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png"
+},
+ {
+  "titulo": "SQL",
+  "puntuacion": 8.0,
+  "descripcion": "I have experience with SQL queries and sentences. I understand the sintaxis completely and is one the languages that I know best.",
+  "imagen": "http://www.mikefal.net/wp-content/uploads/2016/05/logoAzureSql.png"
 }
+ 
 ]
