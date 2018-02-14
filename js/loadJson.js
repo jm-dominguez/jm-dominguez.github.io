@@ -1,3 +1,4 @@
+/* global $ */
 "use strict";
 $('#pythonButton').click(function(){
   $.getJSON('./json/python.json',function(d){
