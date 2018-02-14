@@ -3,7 +3,6 @@
 $(document).ready(function ( ){
     $.getJSON('./json/images.json', function(data){
         data.map(function(i,p){
-            console.log(i);
             var url = i.url;
             var id = i.id;
             $(".carousel-inner").append("<div class=\"carousel-item\" id = \"" + id + "\"> </div>");

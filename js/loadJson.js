@@ -100,5 +100,5 @@ function validarColor(puntuacion){
 
 function anadirImagen(url){
   console.log(url);
-  $('#limg').css('width', '92%').css('height', '92%').attr("src",url);
+  $('#modal-image').css('width', '92%').css('height', '92%').attr("src",url);
 }

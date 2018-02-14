@@ -76,6 +76,7 @@ p{
 .copyright{
     text-align: center;
     margin-top: 10px;
+    font-size: 14px;
 }
 .footer{
     background-color: teal;
@@ -95,8 +96,8 @@ p{
     margin-left: 25px;
 }
 .carousel-image{
-    width:50em;
-    height: 20em;
+    width:45em;
+    height:30em;
 }
 .starting-image{
     margin-top: 25px;
@@ -131,7 +132,7 @@ p{
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
 }
-#limg{
+#modal-image{
     margin-top: 10px;
 }
 #myModal{
