@@ -30,6 +30,8 @@ h2{
 }
 p{
     text-align: justify;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
 }
 .navbar{;
     background-color: teal;
