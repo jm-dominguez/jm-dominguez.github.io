@@ -169,3 +169,7 @@ p{
 #twitter-icon, #facebook-icon, #github-icon  {
     color: white;
 }
+#imagen-portada{
+    height: 45%;
+    width: 45%;
+}
