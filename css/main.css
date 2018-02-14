@@ -166,3 +166,6 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+#twitter-icon, #facebook-icon, #github-icon  {
+    color: white;
+}
