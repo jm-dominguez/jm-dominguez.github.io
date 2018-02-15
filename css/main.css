@@ -45,24 +45,18 @@ p{
     background-color: azure;
 }
 .pythonlogo{
-    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1000px-Python.svg.png);
-    background-size:100% 100%;
     width:200px;
     height:200px;
     margin-left: auto;
     margin-right: auto;
 }
 .javalogo{
-    background-image:url(http://www.myce.com/wp-content/images_posts/2017/01/myce-java-logo.png);
-    background-size:100% 100%;
     width:220px;
     height:200px;
     margin-left: auto;
     margin-right: auto;
 }
 .htmllogo{
-    background-image:url(https://i2.wp.com/www.zueuz.com/media/68007/html5-css3-logo.png?resize=540%2C260);
-    background-size:100% 100%;
     width:340px;
     height:200px;
     margin-left: auto;
@@ -152,16 +146,12 @@ p{
     margin-bottom: 40px;
 }
 .javascriptlogo{
-    background-image:url(https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png);
-    background-size:100% 100%;
     width:220px;
     height:200px;
     margin-left: auto;
     margin-right: auto;
 }
 .sqllogo{
-    background-image:url(http://www.mikefal.net/wp-content/uploads/2016/05/logoAzureSql.png);
-    background-size:100% 100%;
     width:220px;
     height:200px;
     margin-left: auto;
