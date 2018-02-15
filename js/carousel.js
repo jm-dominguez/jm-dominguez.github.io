@@ -5,8 +5,9 @@ $(document).ready(function ( ){
         data.map(function(i,p){
             var url = i.url;
             var id = i.id;
+            var alt = i.alt;
             $(".carousel-inner").append("<div class=\"carousel-item\" id = \"" + id + "\"> </div>");
-            $('#' + id).append("<img class=\"carousel-image\" src = \"" + url + "\">");
+            $('#' + id).append("<img class=\"carousel-image\" src = \"" + url + "\" alt=\" " + alt + " \">");
             
             $(".carousel-indicators").append("<li data-target = \"#demo\" data-slide-to = \"" + p + "\" id = \"data-slide" + p + "\"> </li>");
             

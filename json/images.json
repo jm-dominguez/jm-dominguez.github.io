@@ -1,21 +1,26 @@
 [{
     "url": "images/Karate1.JPG",
-    "id": "karate1"
+    "id": "karate1",
+    "alt": "Me receiving my karate yellow belt."
 },
  {
      "url": "images/Karate2.JPG",
-     "id": "karate2"
+     "id": "karate2",
+     "alt": "Me after having changed my karate belt."
  },
  {
      "url": "images/Futbol1.JPG",
-    "id": "futbol1"},
+    "id": "futbol1",
+    "alt": "My soccer team after a match."},
  {
      "url": "images/Futbol2.JPG",
-     "id": "futbol2"
+     "id": "futbol2",
+     "alt": "My soccer team after a match"
  },
  {
      "url": "images/Futbol3.JPG",
-     "id": "futbol3"
+     "id": "futbol3",
+     "alt": "My soccer team after a match"
  }
 
 ]

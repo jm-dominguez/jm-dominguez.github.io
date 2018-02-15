@@ -2,31 +2,36 @@
   "titulo": "Python",
   "puntuacion": 7.3,
   "descripcion": "I started learning python six months ago. Currently I have really basic knowledge (attributes, syntax, classes and methods). Also I have worked with python libraries to implement websockets.",
-  "imagen": "https://www.visualstudio.com/wp-content/uploads/2016/06/python-1-562x309@2x-op.png"
+  "imagen": "https://www.visualstudio.com/wp-content/uploads/2016/06/python-1-562x309@2x-op.png",
+    "alt": "python logo, two snakes tangled"
 },
 {
   "titulo": "Java",
   "puntuacion": 9.5,
   "descripcion": "Java was the firt programming language that I learned. Because of that, I have quite a lot of experience working with java. I've helped developing Jax-RS web services, simple java applications, and even a client server communication demo with encryption.",
-  "imagen": "http://www.freepngimg.com/thumb/java/5-2-java-png-clipart-thumb.png"
+  "imagen": "http://www.freepngimg.com/thumb/java/5-2-java-png-clipart-thumb.png",
+    "alt": "The java logo, a cup of coffe with the word java."
 },
 {
   "titulo": "HTML & CSS",
   "puntuacion": 8.2,
   "descripcion": "I have basic knowledge about html elements and structures. Also, I understand the dom, and many of the classes that HTML provides. This is a language I'd like to keep working on in the future.",
-  "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png"
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png",
+    "alt": "the html logo, and the css logo. A orange shield with a 5 and a blue shield with a c"
 },
 {
   "titulo": "Javascript",
   "puntuacion": 7.7,
   "descripcion": "Currently, I have a basic knowledge about javascript and Jquery. However, i'm working to improve my abilities with this programming language. ",
-  "imagen": "https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png"
+  "imagen": "https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png",
+    "alt": "The javascript logo, a yellow shield with a J and an S inside."
 },
  {
   "titulo": "SQL",
   "puntuacion": 8.0,
   "descripcion": "I have experience with SQL queries and sentences. I understand the sintaxis completely and is one the languages that I know best.",
-  "imagen": "http://www.mikefal.net/wp-content/uploads/2016/05/logoAzureSql.png"
+  "imagen": "http://www.mikefal.net/wp-content/uploads/2016/05/logoAzureSql.png",
+     "alt": "The sql logo, a blue cilinder with a cloud besides it."
 }
  
 ]
