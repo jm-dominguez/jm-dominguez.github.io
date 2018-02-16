@@ -34,6 +34,15 @@
                 <p class=caption>The only place success comes before work is in the dictionary.<br>-Vince Lombardi</p>
             </div>
         </div>
+        
+        <!-- Ramón Vega: Juan Manuel, me habría parecido cómodo que el menú se recogiera una vez la persona elige la sección a 
+             la que quiere navegar (que se recogiera después del click). -->
+        <!-- Ramón Vega: Juan Manuel, los "hamburguer menu" son muy útiles cuando la pantalla de quien navega es muy pequeña. 
+             Considero que pudo haber aprovechado mejor el espacio en la barra de navegación, para ubicar al usuario dentro de
+             la página web que construyó. -->
+        <!-- Ramón Vega: Juan Manuel, me gustó mucho la forma en la que fijó su navbar. Ese primer desplazamiento antes de que se
+             "quede pegada" a la parte superior de la pantalla me pareció muy chevere. -->        
+        
         <!--NavBar -->
         <nav class="navbar navbar-toggleable-sm bg-faded sticky-top menu-logo" id="navigation-bar" >
             <button class="navbar-toggler left" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,12 +70,19 @@
             </div>
         </nav>
 
+        <!-- Ramón Vega: Juan Manuel, la imagen que puso responde muy bien a los cambios en el tamaño de la pantalla. Eso es bueno -->
+        
         <!--HomePage Image-->
         <div class="container starting-image">
             <div class="text-center">
                 <img src="images/portada.JPG" class="rounded-circle img-fluid" id="imagen-portada" alt="A photo of me and my father during a family celebration">
             </div>
         </div>
+        
+        <!-- Ramón Vega: Juan Manuel, no entiendo muy bien el propósito de esta sección. Entiendo que tenía la intención de dejar un 
+             espacio entre la imagen y el titulo de la sección "About me" pero no sé hasta que punto era necesaria la creación de 
+             una nueva fila. Tal vez un salto de línea habría bastado (<br/>) -->
+        
         <!--About Me -->
         <div class="row">
             <div class="col-sm-3">
@@ -75,7 +91,13 @@
             </div>
             <div class="col-sm-3"></div>
         </div>
-        <!-- The aboutme section -->
+        
+        <!-- Ramón Vega: Juan Manuel, fue lo suficientemente organizado con el uso del bootstrap grid y en esta sección eso es
+             evidente. Sin embargo, hay que revisar el tema de los cambios en las dimensiones de la pantalla pues el margen se pierde
+             cuando el ancho de la misma se reduce. En el momento en que la pantalla se reduce lo suficiente como para que el texto 
+             se vuelva una sola columna, se pierde el margen tanto a la izquierda como a la derecha -->
+        
+        <!-- The about me section -->
         <div id="aboutme">
             <div class="row">
                 <div class="col-sm-12">
@@ -93,8 +115,15 @@
                 </div>  
             </div>
         </div>
+       
+        <!-- Ramón Vega: Juan Manuel, esta es mi sección favorita de su página. Me gustó mucho lo que hizo con los botones y los 
+             pop ups. Hay personas que no tienen ni idea de qué es python entonces habría sido bueno que, así como en los otros 
+             lenguajes de programación lo hizo explicito de entrada, hubiese puesto tal vez una imagen con el nombre o una etiqueta
+             arriba que dijera "Python". -->
+        
         <!-- SKills -->
         <div id="skills">
+            
             <div class="row">
                 <div class = "col-sm-12">
                     <h2>My Skills</h2>
@@ -102,16 +131,17 @@
                     <br/>
                 </div>
             </div>
+            
             <div class = "row">
                 <div class = "container-fluid">
                     <div class = "row">
+                        
                         <!-- Skills python section -->
                         <div class = "col-sm-4">
                             <div class="row">
                                 <div class="col-sx-2">
                                 </div>
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1000px-Python.svg.png" class="pythonlogo" alt="python logo, two snakes tangled">
-
                             </div>
                             <div class="row">
                             </div>
@@ -123,6 +153,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <!-- Skills html section -->
                         <div class="col-sm-4">
                             <div class="row">
@@ -137,6 +168,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <!-- Skills java section -->
                         <div class = "col-sm-4">
                             <div class="row">
@@ -150,13 +182,15 @@
                                     <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal" id="javaButton">Details</button>
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col-sm-2">
                 </div>
+                
                 <!-- Skills Javascript section -->
                 <div class="col-sm-4">
                     <div class="row">
@@ -171,8 +205,10 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-sm-1">
                 </div>
+                
                 <!-- Skills SQL section -->
                 <div class="col-sm-4">
                     <div class="row">
@@ -190,6 +226,12 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Ramón Vega: Juan Manuel, me gustó la forma en la que organizó las cosas en esta sección (Experience). Una única columna
+             me parece que es visualmente agradable. Sin embargo, las imagenes (el escudo de la u, la imagen de iot y del monitor),
+             quizas se habrían visto mejor sin el marco circular para que las mismas salieran completas (el monitor, por ejemplo, no
+             se ve completo) y que no se vieran como muy ajustadas dentro del círculo como en el caso de la imagen de iot -->
+        
         <!-- Experience -->
         <div id = "experience">
             <h2>Experience</h2>
@@ -202,7 +244,11 @@
                         <img class="rounded-circle img-fluid experience-image" src="https://yt3.ggpht.com/a-/AJLlDp1Rx7-0pSvw0bVoxdxtm333mNWcUA0og9GDsA=s900-mo-c-c0xffffffff-rj-k-no" id="andes-image" alt="Logo of Los Andes university, a black tree in a yellow background">
                     </div>
                     <div class="col-sm-5" id="andes-text">
-                        <p>I started studying in Universidad de Los Andes, Bogotá Colombia in 2015. Currently i'm pursuing a major in computer engineering.</p>
+                        
+                         <!-- Ramón Vega: Juan Manuel, le voy a corregir directamente en su código esto: "i'm pursuing" por 
+                             "I'm pursuing" -->
+                        
+                        <p>I started studying in Universidad de Los Andes, Bogotá Colombia in 2015. Currently I'm pursuing a major in computer engineering.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -224,12 +270,21 @@
                         <img class="rounded-circle img-fluid experience-image" src="https://image.freepik.com/free-icon/black-iscreen-computer_318-9552.jpg" alt="A logo made with a black computer in a white background. The computer screen is also white.">
                     </div>
                     <div class="col-sm-5">
-                        <p>I also have experience developing different areas, like transactional systems, basic web development, and as i mentioned before Iot solutions.</p>
+                        
+                        <!-- Ramón Vega: Juan Manuel, le voy a corregir directamente en su código esto: "as i mentioned" por 
+                             "as I mentioned" -->
+                        
+                        <p>I also have experience developing different areas, like transactional systems, basic web development, and as I mentioned before Iot solutions.</p>
                     </div>
                 </div>
             </div>
-
         </div>
+        
+        <!-- Ramón Vega: Juan Manuel, el carousel de fotos que puso es llamativo. Me gusta que independientemente del tamaño de la
+             imagen, el area que ocupa el carousel no varía. Sin embargo, pasa algo (que no tengo ni idea pq es) cuando uno vuelve
+             de la última imagen a la primera. Al lado izquierdo la foto no sé si es que se demora un poco más de tiempo en cargar 
+             pero lo cierto es que por un instante se ve cortada y después se arregla -->
+        
         <!-- Hobbies-->
         <div id="hobbies">
             <h2>Hobbies</h2>
@@ -261,9 +316,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
+        
+        <!-- Ramón Vega: Juan Manuel, fue minimalista en la forma de poner los canales a través de los cuales los interesados lo
+             pueden contactar y eso me parece agradable. Me pareció interesante lo que hizo con el email: Qu salga el mensajito
+             mostrando su correo -->
+        
         <!-- Footer -->
         <div class="footer">
             <ul class="list-inline">
@@ -306,11 +364,15 @@
                         <a data-toggle="popover" title="Mail" data-content="Contact me at: jm.dominguez@uniandes.edu.co" data-placement="top">
                             <i class="fas fa-envelope fa-2x" ></i>
                         </a>
-
                     </div>
                 </li>
             </ul>
         </div>
+        
+        <!-- Ramón Vega: Juan Manuel, no es 100% claro para mi lo que está haciendo en esta sección del documento (sin dejar de lado el
+             hecho de que soy muy principiante en herramientas para desarrollo web). Me imagino que tiene que ver con los pop ups de 
+             la sección skills. En esta sección le agregaría documentación un poquito más diciente para hacerlo más intuitivo -->
+        
         <!-- Python detail modal -->
         <!--The Modal -->
         <div class ="modal fade" id="myModal">
@@ -353,6 +415,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Bootstrap Scripts -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
